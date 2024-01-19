@@ -1,22 +1,14 @@
 package org.ict.github;
 
-import java.util.Scanner;
-
 public class SimpleJavaPrograms2 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the principal amount"); 
-		float p=sc.nextFloat();
-		 System.out.println("Enter rate of interest");
-		float r=sc.nextFloat();
-		 System.out.println("Enter the time in years");
-		float t=sc.nextFloat(); 
-		//p = 12000; r = 10; t = 2;
+		float p, r, t; 
+		p = 12000; r = 10; t = 2;
 		System.out.println("\n---------------SIMPLE INTEREST---------------------");
 		cal_simple_interest(p,r,t);
 		
-		float pr = 1200, ra = 10, ti = 2 , nt=1; 
+		float pr = 2000, ra = 20, ti = 2 , nt=1; 
 		System.out.println("\n-----------------COMPOUND INTEREST--------------------");
         System.out.println("\n The principle amount is = " + pr);
         System.out.println("\n The rate is = " + ra);
